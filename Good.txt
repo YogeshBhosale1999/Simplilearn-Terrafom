@@ -32,7 +32,7 @@ ingress {
 
 
 resource "aws_instance" "web1" {
-  ami           = "ami-03c7d01cf4dedc891"
+  ami           = "ami-0230bd60aa48260c6"
   instance_type = "t2.micro"
 
   tags = {
